@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .sect-header {
+    @apply text-xl sm:text-3xl flex justify-center mb-9;
+  }
+}
+
+.bg-black-gradient {
+  background: linear-gradient(
+    -168.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
+
+* {
+  scroll-behavior: smooth;
+}
